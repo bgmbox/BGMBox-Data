@@ -63,5 +63,5 @@ staff: true
 premium: true
 minecraft_flair:
   global:
-    symbol: "[Admin] "
+    symbol: "❖"
     color: gold
