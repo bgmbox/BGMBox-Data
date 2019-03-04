@@ -1,7 +1,7 @@
 Data
 ====
 
-Static configuration data for [Stratus](https://github.com/StratusNetwork/OCN)
+Static configuration data for [BGMBox](https://github.com/bgmbox/BGMBox)
 
 Feel free to leave comments in the .yml files. They look
 
