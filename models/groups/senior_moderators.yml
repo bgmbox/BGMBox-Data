@@ -142,50 +142,6 @@ minecraft_permissions:
 staff: true
 premium: true
 web_permissions:
-  punishment:
-    manage: true
-    create:
-      warn: true
-      kick: true
-      ban: true
-  group:
-    parent:
-      admin: true
-    moderation_staff:
-      admin: true
-      manage: true
-      edit:
-        members: true
-    moderators:
-      admin: true
-      manage: true
-      edit:
-        members: true
-    junior_moderators:
-      admin: true
-      manage: true
-      edit:
-        members: true
-    content_creators:
-      admin: true
-      manage: true
-      edit:
-        members: true
-    ipban:
-      admin: true
-      manage: true
-      edit:
-        members: true
-    newsletter:
-      admin: true
-      manage: true
-      edit:
-        members: true
-    uhc_host:
-      admin: true
-      manage: true
-      edit:
-        members: true
   misc:
     player:
       view_display_server: true
