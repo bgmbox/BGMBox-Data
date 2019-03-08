@@ -3,120 +3,48 @@ priority: 225
 html_color: "#b71c1c"
 badge_color: "#b71c1c"
 badge_link: "/staff"
-minecraft_flair:
-  normal:
-    symbol: "❖"
-    color: dark_red
 minecraft_permissions:
   global:
-    - nick.see-through-all
-  normal:
-  - bukkit.command.stop
+  - "-nocheatplus.checks"
+  - "-nocheatplus.mods.rei"
+  - "-projectares.report.exempt"
+  - bukkit.command.gamemode
+  - bukkit.command.gamerule
   - chat.admin
   - chatmoderator.filters.exempt
-  - commandbook.broadcast
-  - commandbook.debug.clock
-  - commandbook.debug.info
-  - commandbook.gamemode.change
-  - commandbook.gamemode.change.other
-  - commandbook.give
-  - commandbook.give.other
-  - commandbook.rocket
-  - commandbook.rocket.other
-  - commandbook.slap
-  - commandbook.slap.other
-  - commandbook.speed.flight
-  - commandbook.speed.walk
-  - commandbook.targets.everyone
-  - commandbook.teleport
-  - commandbook.teleport.other
-  - commandbook.time
-  - commandbook.whereami
-  - commandbook.whois
-  - commandbook.whois.other
-  - database.queueinfo
-  - echocheat.alerts
+  - commandbook.*
+  - database.disconnect
+  - database.edit
+  - database.flush
+  - database.info
+  - database.reconnect
+  - database.reload
+  - gizmo.immunity
   - lobby.disabled-permissions-exempt
   - lobby.fly
   - lobby.restricted.access
-  - minecraft.command.kick
-  - minecraft.command.stop
-  - mutation.set
-  - nick.see-through-all
-  - nocheatplus.admin
   - nocheatplus.checks.chat
   - nocheatplus.checks.moving.boatsanywhere
-  - ocn.punishments
-  - ocn.punishments.ban
-  - ocn.punishments.kick
-  - ocn.punishments.lookup
-  - ocn.punishments.lookup.stale
-  - ocn.punishments.punish
-  - ocn.punishments.punish.auto
-  - ocn.punishments.punish.off_record
-  - ocn.punishments.punish.silent
-  - ocn.punishments.punish.time
-  - ocn.punishments.warn
-  - ocn.see-all-servers
+  - ocn.broadcast.global
+  - ocn.developer
+  - ocn.login
   - ocn.teleport.others
-  - ocn.version
-  - overcast.premium
-  - pgm.cancel
-  - pgm.chat.admin
-  - pgm.chat.all.receive
-  - pgm.cycle
-  - pgm.defuse
-  - pgm.end
-  - pgm.fullserver
-  - pgm.join
-  - pgm.join.choose
-  - pgm.join.force
-  - pgm.join.full
-  - pgm.mapreload
+  - ocn.trophies.list
+  - ocn.trophies.modify
+  - op
+  - pgm.mapdev
   - pgm.next.set
-  - pgm.rotation.append
-  - pgm.rotation.insert
-  - pgm.rotation.list
-  - pgm.rotation.reload
-  - pgm.rotation.remove
-  - pgm.rotation.removeat
-  - pgm.rotation.set
-  - pgm.skip
-  - pgm.start
-  - pgm.team.alias
-  - pgm.team.force
-  - pgm.team.shuffle
-  - pgm.team.size
-  - pgm.timelimit
   - pgm.updatemap
-  - poll.custom
-  - poll.veto
   - projectares.appeals.alerts
   - projectares.freeze
-  - projectares.freeze.exempt
-  - projectares.lookup
-  - projectares.lookup.type.ban
-  - projectares.lookup.type.forum_ban
-  - projectares.lookup.type.forum_warn.own
-  - projectares.lookup.type.kick
-  - projectares.lookup.type.tourney_ban
-  - projectares.lookup.type.warn.own
   - projectares.moderator
-  - projectares.msg.override
-  - projectares.report.cooldown.exempt
-  - projectares.report.override
-  - projectares.reports.receive
-  - projectares.reports.view
   - projectares.staff
-  - pseudogroupnode.srstaff
-  - raindrops.multiplier.250
-  - server.cancelrestart
+  - protocolsupport.admin
+  - pseudogroupnode.admins
+  - raindrops.multiplier.200
   - server.cross-datacenter
-  - server.queuerestart
-  - server.restart
-  - setting.adminchat
+  - server.visibility
   - setting.nick
-  - setting.nick.any
   - setting.nick.any.get
   - setting.nick.any.set
   - setting.nick.get
@@ -125,46 +53,15 @@ minecraft_permissions:
   - setting.nick.unlimited
   - skin.change
   - sudo
+  - sudo.others
+  - tokens.give
+  - viaversion.admin
   - whitelist.bypass
   - whitelist.edit
-  - worldedit.analysis.*
-  - worldedit.clipboard.*
-  - worldedit.drain
-  - worldedit.extinguish
-  - worldedit.history.*
-  - worldedit.navigation.*
-  - worldedit.region.*
-  - worldedit.remove
-  - worldedit.selection.*
-  - worldedit.tool.info
-  - worldedit.wand
-  - worldedit.wand.toggle
+  - worldedit.*
 staff: true
 premium: true
-web_permissions:
-  misc:
-    player:
-      view_display_server: true
-      view_suspended: true
-      view_new_players: true
-      view_posts: true
-      view_topics: true
-    alt:
-      index: all
-    name_change:
-      index: all
-    ipban:
-      edit: true
-  trophy:
-    admin: true
-  report:
-    manage: true
-  appeal:
-    manage: true
-  session:
-    admin: true
-  user:
-    admin: true
-    profile:
-      verified:
-        edit: all
+minecraft_flair:
+  global:
+    symbol: "❖"
+    color: dark_red
