@@ -24,6 +24,7 @@ minecraft_permissions:
   - setting.nick.set
   - setting.nick.unlimited
   - whitelist.bypass
+staff: true
 premium: true
 minecraft_flair:
   global:
