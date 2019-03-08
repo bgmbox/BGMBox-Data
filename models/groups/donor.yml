@@ -1,17 +1,18 @@
 name: Donor
-priority: 925
-badge_color: "#23cc20"
+priority: 900
+html_color: "#1fbb21"
+badge_color: "#1fbb21"
 badge_link: "/shop"
-premium: true
 minecraft_permissions:
-  normal:
+  global:
   - lobby.fly
   - overcast.premium
   - pgm.fullserver
   - pgm.join.choose
   - pgm.join.full
   - raindrops.multiplier.250
+premium: true
 minecraft_flair:
-  normal:
+  global:
     symbol: "*"
     color: green

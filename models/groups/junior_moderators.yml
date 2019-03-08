@@ -5,8 +5,6 @@ badge_color: "#ef9a9a"
 badge_link: "/staff"
 minecraft_permissions:
   global:
-    - nick.see-through-all
-  normal:
     - chat.admin
     - chatmoderator.filters.exempt
     - commandbook.gamemode.change
@@ -62,99 +60,10 @@ minecraft_permissions:
     - setting.nick.unlimited
     - worldedit.drain
     - worldedit.extinguish
-  staging:
-  - whitelist.bypass
+    - nick.see-through-all
 staff: true
 premium: true
 minecraft_flair:
-  normal:
-    symbol: "[Mod] "
+  global:
+    symbol: "❖"
     color: light_purple
-web_permissions:
-  forum:
-    parent:
-      bypass_cooldown: true
-    59ac4344a2e3a90001000045: #Staff/Discussion
-      topic:
-        create: true
-        index_parent: all
-        reply: all
-        hide: own
-        modify_archived: all
-        view_parent: all
-        view:
-          status:
-            locked: all
-            hidden: own
-        index:
-          status:
-            locked: all
-            hidden: own
-      post:
-        view_parent: all
-        edit_parent: own
-        hide: own
-    59ac4359a2e3a90001000046: #Staff/Moderators
-      topic:
-        create: true
-        index_parent: all
-        reply: all
-        hide: own
-        modify_archived: all
-        view_parent: all
-        view:
-          status:
-            locked: all
-            hidden: own
-        index:
-          status:
-            locked: all
-            hidden: own
-      post:
-        view_parent: all
-        edit_parent: own
-        hide: own
-  appeal:
-    view: all
-    comment: all
-    close: involved
-    index: involved
-    action_on_closed:
-      comment: all
-      escalate: all
-      open: involved
-      appeal: involved
-      unappeal: involved
-      expire: involved
-    action_on_escalated:
-      comment: all
-    open: all
-    escalate:
-      immediately: involved
-  punishment:
-    index:
-      status:
-        inactive: all
-        stale: all
-      type:
-        warn: all
-        forum_warn: all
-    distinguish_status:
-      stale: all
-    edit:
-      active: own
-      expire: own
-      evidence: own
-    view:
-      type:
-        warn: all
-        forum_warn: all
-  report:
-    view: all
-    index: all
-  misc:
-    player:
-      view_display_server: true
-      view_new_players: true
-    name_change:
-      index: all

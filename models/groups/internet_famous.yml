@@ -1,9 +1,9 @@
 name: Internet Famous
 priority: 700
-badge_color: "#43a047"
-premium: true
+html_color: "#5555ff"
+badge_color: "#5555ff"
 minecraft_permissions:
-  normal:
+  global:
   - lobby.disabled-permissions-exempt
   - lobby.fly
   - overcast.premium
@@ -19,34 +19,8 @@ minecraft_permissions:
   - setting.nick.set
   - setting.nick.unlimited
   - setting.nick.view
-  premium:
-  - whitelist.bypass
+premium: true
 minecraft_flair:
-  normal:
-    symbol: "§l▲"
-    color: dark_green
-  test:
-    symbol: "[IF]"
-    color: dark_green
-web_permissions:
-  forum:
-    59ac443ea2e3a90001000047: #Community/Lounge
-      topic:
-        create: true
-        index_parent: all
-        reply: all
-        hide: own
-        modify_archived: all
-        view_parent: all
-        view:
-          status:
-            locked: all
-            hidden: own
-        index:
-          status:
-            locked: all
-            hidden: own
-      post:
-        view_parent: all
-        edit_parent: own
-        hide: own
+  global:
+    symbol: "*"
+    color: dark_blue

@@ -1,0 +1,106 @@
+name: Map Makers
+priority: 245
+html_color: "#5555ff"
+badge_color: "#5555ff"
+badge_link: "/staff"
+minecraft_permissions:
+  global:
+  - bukkit.command.gamerule
+  - chat.admin
+  - commandbook.broadcast
+  - commandbook.targets.everyone
+  - lobby.fly
+  - map.rating.view.live
+  - minecraft.command.stop
+  - mutation.set
+  - nick.see-through-all
+  - ocn.version
+  - pgm.blitz
+  - pgm.cancel
+  - pgm.cycle
+  - pgm.destroyable.edit
+  - pgm.end
+  - pgm.join
+  - pgm.join.choose
+  - pgm.join.force
+  - pgm.join.full
+  - pgm.loadnewmaps
+  - pgm.mapdev
+  - pgm.maperrors
+  - pgm.modes.push
+  - pgm.next.set
+  - pgm.skip
+  - pgm.start
+  - pgm.team.alias
+  - pgm.team.force
+  - pgm.team.size
+  - pgm.timelimit
+  - pgm.updatemap
+  - poll.custom
+  - poll.veto
+  - projectares.freeze.exempt
+  - raindrops.multiplier.250
+  - server.cancelrestart
+  - server.queuerestart
+  - server.restart
+  - setting.adminchat
+  - setting.nick
+  - setting.nick.any.get
+  - setting.nick.immediate
+  - setting.nick.set
+  - setting.nick.unlimited
+  - setting.nick.view
+  - whitelist.bypass
+  - whitelist.edit
+  - worldedit.*
+  - worldedit.analysis.*
+  - worldedit.clipboard.*
+  - worldedit.drain
+  - worldedit.extinguish
+  - worldedit.history.*
+  - worldedit.navigation.*
+  - worldedit.region.*
+  - worldedit.remove
+  - worldedit.selection.*
+  - worldedit.tool.info
+  - worldedit.wand
+  - worldedit.wand.toggle
+  - commandbook.clear
+  - commandbook.clear.other
+  - commandbook.debug.clock
+  - commandbook.debug.info
+  - commandbook.flight.toggle
+  - commandbook.flight.toggle.other
+  - commandbook.gamemode
+  - commandbook.gamemode.change
+  - commandbook.gamemode.change.other
+  - commandbook.gamemode.check
+  - commandbook.gamemode.check.other
+  - commandbook.give
+  - commandbook.give.infinite
+  - commandbook.give.other
+  - commandbook.give.stacks
+  - commandbook.give.stacks.unlimited
+  - commandbook.god
+  - commandbook.god.other
+  - commandbook.heal
+  - commandbook.heal.other
+  - commandbook.locations.coords
+  - commandbook.more
+  - commandbook.more.infinite
+  - commandbook.speed.flight
+  - commandbook.speed.flight.other
+  - commandbook.speed.walk
+  - commandbook.speed.walk.other
+  - commandbook.targets.everyone
+  - commandbook.targets.near
+  - commandbook.teleport
+  - commandbook.teleport.other
+  - commandbook.whereami
+  - commandbook.whereami.compass
+staff: true
+premium: true
+minecraft_flair:
+  global:
+    symbol: "✵"
+    color: blue
