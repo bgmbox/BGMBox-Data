@@ -1,5 +1,5 @@
 name: Map Makers
-priority: 325
+priority: 515
 html_color: "#5555ff"
 badge_color: "#5555ff"
 badge_link: "/staff"
@@ -98,7 +98,6 @@ minecraft_permissions:
   - commandbook.teleport.other
   - commandbook.whereami
   - commandbook.whereami.compass
-staff: true
 premium: true
 minecraft_flair:
   global:
