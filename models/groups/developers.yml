@@ -32,6 +32,5 @@ minecraft_permissions:
 staff: true
 minecraft_flair:
   global:
-    symbol: "❖"
     color: dark_purple
     priority: 220
