@@ -1,0 +1,51 @@
+name: Scrimmage Hosts
+priority: 650
+html_color: "#e53935"
+badge_color: "#e53935"
+badge_link: "/staff"
+minecraft_permissions:
+  global:
+    - chat.admin
+    - chatmoderator.filters.exempt
+    - commandbook.gamemode.change
+    - commandbook.teleport
+    - commandbook.teleport.other
+    - commandbook.whereami
+    - commandbook.whois
+    - commandbook.whois.other
+    - lobby.disabled-permissions-exempt
+    - lobby.fly
+    - nick.see-through-all
+    - ocn.version
+    - overcast.premium
+    - pgm.chat.all.receive
+    - pgm.defuse
+    - pgm.end
+    - pgm.fullserver
+    - pgm.join
+    - pgm.join.choose
+    - pgm.join.force
+    - pgm.join.full
+    - projectares.lookup
+    - projectares.lookup.type.ban
+    - projectares.lookup.type.forum_ban
+    - projectares.lookup.type.forum_warn.own
+    - projectares.lookup.type.kick
+    - projectares.lookup.type.tourney_ban
+    - projectares.lookup.type.warn.own
+    - projectares.msg.override
+    - projectares.reports.receive
+    - projectares.reports.view
+    - projectares.staff
+    - pseudogroupnode.staff
+    - raindrops.multiplier.250
+    - server.cross-datacenter
+    - setting.adminchat
+    - worldedit.drain
+    - worldedit.extinguish
+staff: true
+premium: true
+minecraft_flair:
+  global:
+    symbol: "*"
+    color: red
