@@ -5,44 +5,72 @@ badge_color: "#e53935"
 badge_link: "/staff"
 minecraft_permissions:
   global:
+    - nick.see-through-all
     - chat.admin
     - chatmoderator.filters.exempt
+    - commandbook.broadcast
+    - commandbook.debug.clock
+    - commandbook.debug.info
     - commandbook.gamemode.change
+    - commandbook.speed.flight
+    - commandbook.speed.walk
     - commandbook.teleport
     - commandbook.teleport.other
+    - commandbook.time
     - commandbook.whereami
     - commandbook.whois
     - commandbook.whois.other
-    - lobby.disabled-permissions-exempt
     - lobby.fly
+    - mutation.list
+    - mutation.set
     - nick.see-through-all
-    - ocn.version
     - overcast.premium
+    - pgm.cancel
     - pgm.chat.all.receive
-    - pgm.defuse
+    - pgm.cycle
     - pgm.end
     - pgm.fullserver
     - pgm.join
     - pgm.join.choose
     - pgm.join.force
     - pgm.join.full
+    - pgm.mapreload
+    - pgm.next.set
+    - pgm.skip
+    - pgm.start
+    - pgm.team.shuffle
+    - pgm.team.size
+    - pgm.timelimit
+    - poll.custom
+    - poll.veto 
     - projectares.lookup
     - projectares.lookup.type.ban
     - projectares.lookup.type.forum_ban
-    - projectares.lookup.type.forum_warn.own
     - projectares.lookup.type.kick
     - projectares.lookup.type.tourney_ban
-    - projectares.lookup.type.warn.own
     - projectares.msg.override
     - projectares.reports.receive
     - projectares.reports.view
-    - projectares.staff
-    - pseudogroupnode.staff
     - raindrops.multiplier.250
+    - server.cancelrestart
     - server.cross-datacenter
+    - server.queuerestart
+    - server.restart
     - setting.adminchat
+    - setting.nick
+    - setting.nick.immediate
+    - worldedit.analysis.*
     - worldedit.drain
     - worldedit.extinguish
+    - worldedit.history.*
+    - worldedit.navigation.*
+    - worldedit.region.*
+    - worldedit.remove
+    - worldedit.selection.*
+    - worldedit.tool.info
+    - worldedit.wand
+    - worldedit.wand.toggle
+    - whitelist.bypass
 staff: true
 premium: true
 minecraft_flair:
